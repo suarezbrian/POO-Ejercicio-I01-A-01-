@@ -28,8 +28,6 @@ internal class Program
         int dinero = 0;
         Cuenta cuenta = new Cuenta(1000, 2000);
 
-        
-
         do
         {
             cuenta.Mostrar();
@@ -65,6 +63,7 @@ internal class Program
 
         } while (seguir);
 
+        Console.WriteLine("FIN DEL PROGRAMA...");
         Console.ReadKey();
     }
 }
